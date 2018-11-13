@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home | Rafael Ferraz</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rafael Ximenes Ferraz">
+    <meta name="description" content="Welcome to my website! Here ou will find my personal portfolio and main works.">
+    <meta name="keywords" content="HTML, CSS, Javascript, student, NSCC, BYU-I">
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--Links-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="container-fluid full-height">
+        <div class="container full-height">
+            <video class="filter" autoplay muted loop id="myVideo">
+                <source src="img/bg.mp4" type="video/mp4">
+            </video>
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-static-top">
+                <a class="navbar-brand text-white" href="index.html">Rafael Ferraz</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="mx-auto nav-item active">
+                            <a class="nav-link text-white px-4" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="mx-auto nav-item">
+                            <a class="nav-link text-white px-4" href="#about">About</a>
+                        </li>
+                        <li class="mx-auto nav-item">
+                            <a class="nav-link text-white px-4" href="#skills">Skills</a>
+                        </li>
+                        <li class="mx-auto nav-item">
+                            <a class="nav-link text-white px-4" href="#works">Works</a>
+                        </li>
+                        <li class="mx-auto nav-item">
+                            <a class="nav-link text-white px-4" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="jumbotron bg-transparent position-relative m-0">
+                <div class="center-horizontal">
+                    <h1 class="text-orange">Hello,</h1>
+                    <h2 class="text-white text-bold text-big">I'm <span>RAFAEL FERRAZ.</span></h2>
+                    <h2 class="dinamic-text text-white">I'm a
+                        <span class="dinamic-words"></span>
+                        <div class="cursor"></div>
+                    </h2>
+                    <div class="mt-5">
+                            <a href="#" class="btn btn-orange btn-lg active" role="button" aria-pressed="true">Hire Me</a>
+                            <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow d-block mx-auto">
+                <svg class="h-100" id="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 417.6 237.2">
+                    <polyline fill="none" stroke="#fe9528" stroke-width="50" stroke-linecap="round" stroke-miterlimit="10"
+                        points="37.9,29 208.7,199.8 379.7,28.8 " />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black">
+      <div id="contact" class="bg-gray-dark container">
+        <div class="row">
+          <div class="col-md-6 py-5 px-3">
+            <h2 class="text-center text-white text-bold text-big">Contact</h2>
+            <hr class="hr bg-orange mb-5 p-0" />
+            <div class="form-group row">
+              <div class="col-1 p-0">
+                <i class="far fa-envelope text-orange icon"></i>
+              </div>
+              <div class="col-11 p-0">
+                <input class="input-contact border-top-0 border-right-0 border-left-0 rounded-0 p-1 w-100" type="text" class="form-control" id="name" placeholder="Your Email*">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-1 p-0">
+                <i class="far fa-user-circle text-orange icon"></i>
+              </div>
+              <div class="col-5 p-0">
+                <input class="input-contact border-top-0 border-right-0 border-left-0 rounded-0 p-1 w-100" type="text" class="form-control" id="name" placeholder="Your First Name">
+              </div>
+              <div class="col-1 p-0"></div>
+              <div class="col-5 p-0">
+                <input class="input-contact border-top-0 border-right-0 border-left-0 rounded-0 p-1 w-100" type="text" class="form-control" id="name" placeholder="Your Last Name">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-1 p-0">
+                <i class="fas fa-mobile-alt text-orange icon"></i>
+              </div>
+              <div class="col-5 p-0">
+                <input class="input-contact border-top-0 border-right-0 border-left-0 rounded-0 p-1 w-100" type="text" class="form-control" id="name" placeholder="Your Telephone">
+              </div>
+              <div class="col-1 p-0">
+                <i class="far fa-caret-square-down text-orange icon"></i>
+              </div>
+              <div class="col-5 p-0">
+                <select class="custom-select border-top-0 border-right-0 border-left-0 rounded-0">
+                  <option value="" disabled selected class="placeholder">Your Option</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-1 p-0">
+                <i class="far fa-comment text-orange icon"></i>
+              </div>
+              <div class="col-11 p-0">
+                <textarea rows="8" class="input-contact w-100 border-top-0 border-right-0 border-left-0 rounded-0" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+            <label class="form-check-label p-4 text-orange" for="check">
+              <input class="form-check-input" type="checkbox" value="" id="check">
+                <span class="check"><i class="fas fa-check mark"></i></span>
+                <span class="check-text text-orange px-3">Receive a copy of this message.</span>
+            </label>
+            <div class="w-100">
+              <input type="submit" class="btn btn-outline-warning d-block mx-auto px-5" value="Send" />
+            </div>
+          </div>
+          <div class="col-md-6 py-5 px-5">
+            <div class="row">
+              <div class="col-2 p-0 m-0">
+                <div class="border-dashed">
+                  <i class="p-4 far contact-icon text-center fa-envelope-open"></i>
+                </div>
+              </div>
+              <div class="col-10">
+                <p class="text-white contact-type m-0">
+                  EMAIL:
+                </p>
+                <p class="text-white contact-body m-0">
+                  rafael@provideflow.com
+                </p>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-2 p-0 m-0">
+                <div class="border-dashed">
+                  <i class="p-4 fas contact-icon d-block mx-auto fa-phone"></i>
+                </div>
+              </div>
+              <div class="col-10 ">
+                <p class="text-white contact-type m-0">
+                  PHONE:
+                </p>
+                <p class="text-white contact-body m-0">
+                  +1 902-456-9878
+                </p>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-2 p-0 m-0">
+                <div class="border-dashed">
+                  <i class="p-4 fab contact-icon d-block mx-auto fa-skype"></i>
+                </div>
+              </div>
+              <div class="col-10">
+                <p class="text-white contact-type m-0">
+                  SKYPE:
+                </p>
+                <p class="text-white contact-body m-0">
+                  rafael.ximenes.ferraz
+                </p>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-2 p-0 m-0">
+                <div class="border-dashed">
+                  <i class="p-4 contact-icon d-block mx-auto fas fa-map-marker-alt"></i>
+                </div>
+              </div>
+              <div class="col-10">
+                <p class="text-white contact-type m-0">
+                  ADDRESS:
+                </p>
+                <p class="text-white contact-body m-0">
+                  Halifax, NS, Canada
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid bg-black text-white">
+      <hr class="hr bg-orange d-block mx-auto my-0 p-0"/>
+      <p class="text-orange thin text-center m-0 p-2">
+        © Designed by Rafael Ferraz - 2018
+      </p>
+    </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
